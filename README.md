@@ -4,18 +4,34 @@
 
 The goal of this documentation is to demostrate/explore Rust Programming Language capabilities.
 
-### 1. Generate a New Project
+## 1. Generate a New Project
 
-A. Genereate a new directory call hello-rust using **new** keyword.
+- Genereate a new directory call hello-rust using **new** keyword.
 
-```
-cargo new hello-rust
-```
+  ```
+  cargo new hello-rust
+  ```
 
-B. **cargo.tml** ➜ manifest file for Rust.
+- **cargo.tml** ➜ manifest file for Rust.
 
-C. **src/main.rs** ➜ application code/port of entry.
+- **src/main.rs** ➜ application code/port of entry.
 
-D. **cargo.run** ➜ compile Rust program.
+- Compile Rust program.
 
-2. Add Dependencies
+  ```
+  cargo run
+  ```
+
+## 2. Add Dependencies
+
+- Find dependency that you'd like to add to your application at: https://crates.io/
+
+- Add the name && version of the packages aka crates to **cargo.toml**
+
+## 3. Build the dependency
+
+- To build the dependency run:
+
+  ```
+  cargo build
+  ```
