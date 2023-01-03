@@ -1,7 +1,5 @@
 # Rust Language Demo
 
-## Create a New Directory
-
 The goal of this documentation is to demostrate/explore Rust Programming Language capabilities.
 
 ## 1. Generate a New Project
